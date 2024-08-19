@@ -1,0 +1,108 @@
+.nav{
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+    overflow: hidden;
+}
+li{
+    float: left;
+    margin-left: 15px;
+    
+}
+
+li a{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+}
+li a:hover{
+    background-color: burlywood;
+    transition: 2s ease;
+}
+li a:hover:not(.active){
+    background-color: black;
+}
+input{
+    padding: 10px;
+    margin-top: 3px;
+}
+body{
+    background-color: white
+}
+.facebook{
+    max-width: 500px;
+    padding: 10px;
+    margin: auto;
+    background-size: cover;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background-color: white;
+    margin-top: 20px;
+}
+h1{
+    text-align: center;
+    margin-right: 45px;
+}
+input{
+    width: 90%;
+    padding: 15px;
+    border: 1px solid rgb(209, 221, 224);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    margin-top: auto;
+}
+p{
+    color: black;
+    text-align: center;
+    margin-top: auto;
+    font-size: 15px;
+    margin-right: 45px;
+    font-family: Arial;
+}
+.fb2{
+width: 97%;
+padding: 10px;
+margin-bottom: 10px;
+border-radius: 20px;
+background-color: white;
+font-size: 15px;
+color: blue;
+border: none;
+border: 1px solid;
+height: 35px;
+margin-top: 20px;
+text-align: center;
+
+}
+.fb{
+    width: 97%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background-color: blue;
+    font-size: 15px;
+    border: none;
+    color: white;
+    text-align: center;
+    height: 35px;
+}
+ul{
+    text-align: center;
+   
+    
+
+}
+h3{
+    text-align: center;
+    margin-top: auto;
+    margin-right: 30px;
+}
+button{
+    cursor: pointer;
+}
